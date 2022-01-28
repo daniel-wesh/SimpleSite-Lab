@@ -1,14 +1,16 @@
 body{
+    font-family: serif;
     background-color:skyblue;
     margin:0;
     padding:0;
 }
 
 section{
+    margin-top: 20px;
     margin-left: 25%;
     margin-right:25%;
     display: float;
-    height:800px;
+    height: 790px;
     width:750px;
     color: white;
     border: 5px solid rgb(39,194,65);
@@ -23,19 +25,23 @@ h1{
 h2{
     margin-left: 40px;
     font-weight: bolder;
+    font-size: 30px;
 }
 
 p{
     width:fit-content;
-    font-size: 25px;
+    font-size: 22px;
     margin-left: 40px;
+    align-content: flex-end;
+    padding-right: 40px;
 }
 section img{
+    margin-bottom: 30px;
     position:relative;
     max-width: 250px;
     max-height: 300px;
     float:right;
-    padding:20px;
+    padding:15px;
 }
 nav ul{
     padding:0;
@@ -45,25 +51,24 @@ nav ul{
 }
 
 nav ul li{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bolder;
     display:inline-block;
+    font-style: underline;
 }
 nav ul li a{
     padding-left: 2px;
     padding-right: 2px;
     color: rgb(39, 194, 65);
 }
-    
 
-a:hover{
-    text-decoration: none;
-    color: white;
-}
 span{
     font-weight:bolder;
     color: grey;
 }
 .nav-bottom{
-    margin-bottom: 10px;
+    padding-top: 15px;
+}
+#active{
+  color:white;
 }
